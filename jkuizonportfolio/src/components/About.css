@@ -1,0 +1,25 @@
+.about {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 180px;
+}
+.about-left{
+    flex: 1;
+    font-size: large;
+}
+.about-right{
+    flex: 1;
+    align-self: center;
+    margin-left: 200px;
+}
+
+.abt-pic{
+    background-color: gray;
+    border-radius: 10%;
+    height: 400px;
+    width: 300px;
+}
+.abt-pic p{
+    text-align: center;
+}
