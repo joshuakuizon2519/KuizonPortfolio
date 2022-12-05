@@ -29,9 +29,39 @@
     display: flex;
     flex-direction: column;
     padding: 5px;
+    width: 350px;
 }
 
-.prj-pic p{
+.prj-pic{
     align-self: center;
+    height: 150px;
+    width: 75px;
+    padding: 0px;
 }
 
+.prj-pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 185px;
+    width: 95px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.prj-pic2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 185px;
+    width: 95px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prj-pic-web img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 175px;
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

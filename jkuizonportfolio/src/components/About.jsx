@@ -1,4 +1,5 @@
 import "./About.css";
+import pic from "../../src/img/aboutme_pic.jpg";
 
 const About = () => {
     return (
@@ -7,12 +8,15 @@ const About = () => {
                 <h1>About Me</h1>
                 <p>
                     My name is Joshua R. Kuizon, currently a 3rd year BS Computer Science student
-                    in University of San Carlos. I love this program so much as it helps me in 
-                    becoming a programmer and web developer. I have used a couple of languages such as 
+                    at University of San Carlos. I love this program so much as it helps me in 
+                    becoming a programmer and web developer. I have used a couple of languages such as C,
+                    PHP, Java, Javascript and other languages I have used in college.
+
+                    
                 </p>
             </div>
             <div className="about-right">
-                <div className="abt-pic"><p>Insert pic here</p></div>
+                <img className = "abt-pic"src={pic} alt="pic"></img>
             </div>
             
         </div>
