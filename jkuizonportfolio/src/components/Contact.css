@@ -1,10 +1,25 @@
 .contact {
-    font-weight: 500;
-    height: 50vh;
+    height: 43vh;
     align-items: center;
     padding: 100px;
 }
-
+.contact-title{
+    display: flex;
+}
+.contact-title h1 {
+    margin-right: 50px;
+}
+.contact-title p {
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+.contact-title2{
+  
+}
+.lower{
+  margin-left: 210px;
+  margin-top: 0;
+}
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -12,6 +27,7 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    transition: transform .2s;
   }
   
   .fa:hover {
@@ -22,8 +38,32 @@
     background: #ddd;
     color: black;
   }
-
+  .fa-facebook:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
   .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    color: black;
+  }
+  .fa-instagram {
+    color: black;
+  }
+  .singleCol{
+    max-width: 750px;
+    margin-bottom: 70px;
+  }
+  .social-media-icons a{
+    color: black;
+    font-size: 45px;
+    margin-right: 80px;
+  }
+  .contact-email-number{
+    font-size: 30px;
+    margin-right: 150px;
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .icon{
+    margin-right: 310px;
   }

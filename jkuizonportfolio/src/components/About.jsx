@@ -11,6 +11,10 @@ const About = () => {
                     at University of San Carlos. I love this program so much as it helps me in 
                     becoming a programmer and web developer. I have used a couple of languages such as C,
                     PHP, Java, Javascript and other languages I have used in college.
+                </p>
+                <p>
+                    I am into Machine Learning, human-computer interactions and front-end development.
+                    In my free time, I read books, play the piano and practice cooking. 
 
                     
                 </p>
